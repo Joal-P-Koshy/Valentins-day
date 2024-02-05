@@ -1,6 +1,5 @@
 import React from 'react'
 import './card.css'
-import { Link } from '@material-ui/core';
 
 function Card({ value }) {
 
