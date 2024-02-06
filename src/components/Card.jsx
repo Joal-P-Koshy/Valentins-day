@@ -27,7 +27,7 @@ function Card({ value }) {
           <div className="">
             <h2 id='qstn'>{value}  Will you be my Valentine ?</h2>
           </div>
-          <div className="">
+          <div className="btn">
             <button className="btn-yes" onClick={handleYes}><i class="fa-regular fa-heart me-2"></i>Yes</button>
             <button className="btn-no" onMouseOver={moveHover}>No..</button>
           </div>
