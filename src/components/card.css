@@ -68,10 +68,33 @@ button{
 p{
     text-align: center;
     color: white;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
-/* 320 */
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.icons a{
+    font-size: 25px;
+    color: white;
+}
+
+.insta:hover{
+    background: -webkit-linear-gradient(#2f00ff, #ff00c3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.git:hover{
+    background: -webkit-linear-gradient(#f6f4ff, #059000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 @media (max-width : 600px){
     .box img{

@@ -33,6 +33,10 @@ function Card({ value }) {
           </div>
         </div>
       </div>
+      <div className="icons">
+        <a className='insta' href="https://www.instagram.com/mr_spydo?igsh=cHIxODF5MG1oY3lq" target='_blank'><i class="fa-brands fa-instagram"></i></a>
+        <a className='git' href="https://github.com/Joal-P-Koshy" target='_blank'><i class="fa-brands fa-github"></i></a>
+      </div>
       <p className="">&copy; Built with React 2024, All Rights Reserved &reg; Joal P Koshy</p>
     </>
   )
